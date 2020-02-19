@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.381 s <<< FAILURE! - in TestSuite
+browser.ChromeDriver.chrome  Time elapsed: 0.815 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Connection refused
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Natarajans-MacBook-Pro-2.local', ip: 'fe80:0:0:0:1c8c:40db:8fb5:783d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '13.0.2'
+Driver info: driver.version: ChromeDriver
+	at browser.ChromeDriver.chrome(ChromeDriver.java:134)
+Caused by: java.net.ConnectException: Connection refused
+	at browser.ChromeDriver.chrome(ChromeDriver.java:134)
+
