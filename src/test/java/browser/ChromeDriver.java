@@ -1,7 +1,5 @@
 package browser;
 
-
-
 import org.testng.annotations.Test;
 import java.net.MalformedURLException;
 
